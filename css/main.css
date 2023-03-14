@@ -1,6 +1,17 @@
 @import 'modules/normalize.css';
-@import 'modules/custom-normalize.css';
+@import 'modules/hero.css';
+@import 'modules/typography.css';
+
+:root {
+    --primary-font-family: 'Suez One', serif;
+    --secondary-font-family: 'Yeseva One', cursive;
+    --heading-color:#A9A9A9;
+}
+/* @import 'modules/custom-normalize.css'; */
 
 /* html {
     background-color: pink;
 } */
+#wrapper {
+    background-color: whitesmoke;
+}

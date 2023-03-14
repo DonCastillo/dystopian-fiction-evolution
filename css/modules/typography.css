@@ -1,0 +1,19 @@
+
+
+h1 {
+    margin:0;
+}
+
+.site-title {
+    font-size: 8rem;
+    line-height: 9rem;
+    color: white;
+    font-family: var(--secondary-font-family);
+}
+
+.sub-title {
+    font-size:4rem;
+    font-family: var(--secondary-font-family);
+    color: var(--heading-color);
+}
+
