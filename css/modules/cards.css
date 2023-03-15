@@ -1,6 +1,6 @@
 .card {
 	/* background-color: greenyellow; */
-	margin: 20px 5px 20px 5px;
+	margin: 20px 5px 50px 5px;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -41,7 +41,7 @@
 }
 
 .card__icon--orange {
-	background-color:  #f39c12 ;
+	background-color: #f39c12;
 	color: white;
 }
 
@@ -85,5 +85,24 @@
 }
 .card__content > p {
 	margin: 0;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
+}
+
+@media (max-width: 720px) {
+	.card__content > p {
+		font-size: 1.4rem;
+	}
+	.card__title--lg {
+		font-size: 1.3rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.card__icon--lg {
+		font-size: 1.5rem;
+	}
+	.card__icon--lg > i {
+		height: 40px;
+		width: 40px;
+	}
 }

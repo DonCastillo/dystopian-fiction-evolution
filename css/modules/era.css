@@ -8,19 +8,39 @@
 }
 
 .year-title .section-title span {
-	color:var(--ribbon-color);
+	color: var(--ribbon-color);
 }
 
 .year-page {
 }
 
 .year-page__desc {
-    /* background-color: aqua; */
+	/* background-color: aqua; */
 }
 
-p, .notable-events {
+p,
+.notable-events {
 	display: block;
 	font-size: 1.8rem;
 	font-weight: 200;
 	font-family: var(--secondary-font-family);
+}
+
+@media (max-width: 720px) {
+	p,
+	.notable-events {
+		font-size: 1.4rem;
+	}
+	.year-title .section-title {
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+}
+
+
+@media (max-width: 576px) {
+	.year-title .section-title {
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+	}
 }

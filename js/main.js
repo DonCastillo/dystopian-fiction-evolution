@@ -100,7 +100,21 @@ function YearPage(era, title, desc, notableEvents, bookCardsHTML) {
 
 
 $(document).ready(function () {
-    console.log('Hello')
+    
+    $('.utopia-img').show()
+    $('.dystopia-img').hide()
+
+    // hovers
+    $('#utopia-link').click(function(event){
+        $('.utopia-img').show()
+        $('.dystopia-img').hide()
+    })
+
+
+    $('#dystopia-link').click(function(event){
+        $('.utopia-img').hide()
+        $('.dystopia-img').show()
+    })
 
     const dystopiaTimelineEl = $('#dystopia-timeline');
     dystopiaTimelineEl.html('');
@@ -108,7 +122,7 @@ $(document).ready(function () {
     $.getJSON("./js/dystopia-timeline.json", function (data) {
         
         for(let i=0; data.length > i; i++) {
-            console.log(data[i])
+            // console.log(data[i])
             let yearTitle = data[i].title
             let yearNotableEvent = data[i].notable_event
             let yearEra = data[i].era
@@ -135,5 +149,6 @@ $(document).ready(function () {
         }
 
     });
+    
 
 });

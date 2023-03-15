@@ -6,3 +6,9 @@
     font-weight: 900;
     margin-top:20px;
 }
+
+@media (max-width: 576px) {
+	.ribbon {
+		font-size:1.5rem;
+	}
+}
