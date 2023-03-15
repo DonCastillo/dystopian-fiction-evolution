@@ -55,9 +55,18 @@
 	font-size: 3rem;
 }
 
+.card__icon--sm {
+	font-size: 1.5rem;
+}
+
 .card__icon--lg > i {
 	height: 80px;
 	width: 80px;
+}
+
+.card__icon--sm > i {
+	height: 40px;
+	width: 40px;
 }
 
 .card__title {

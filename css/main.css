@@ -5,6 +5,8 @@
 @import 'modules/background.css';
 @import 'modules/typography.css';
 @import 'modules/cards.css';
+@import 'modules/era.css';
+@import 'modules/book.css';
 
 :root {
     --primary-font-family: 'Yeseva One', cursive;

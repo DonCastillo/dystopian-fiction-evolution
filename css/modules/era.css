@@ -1,0 +1,26 @@
+.year-title .section-title {
+	font-size: 8rem;
+	line-height: 8rem;
+	color: white;
+	font-family: var(--primary-font-family);
+	font-size: 5rem;
+line-height: 5rem;
+}
+
+.year-title .parallax {
+	filter: contrast(100%) brightness(68%);
+}
+
+.year-page {
+}
+
+.year-page__desc {
+    /* background-color: aqua; */
+}
+
+p, .notable-events {
+	display: block;
+	font-size: 1.8rem;
+	font-weight: 200;
+	font-family: var(--secondary-font-family);
+}
