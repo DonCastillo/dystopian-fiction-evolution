@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Defining the Genre",
+        "era": "1900s - 1920s",
+        "desc": "<p>The start of the 20th century was defined by social unrest and global anxiety brought by the First World War and the Russian Revolution. There was also a widespread political tensions that caused the rise of totalitarian regimes and oligarchies that held control over the masses.</p><p>In this era, dystopian themes centered around politics ruled by the few and caste system where the lower class is subjected to oppressive actions by the upper class.</p>",
+        "notable_event": [
+            "World War I", "Spread of Spanish Flu", "Russian Revolution", "First TV transmission"
+        ],
+        "bg": "russian-revolution.webp",
+        "books": [
+            {
+                "title": "The Iron Heel",
+                "date": "1908",
+                "author": "Jack London",
+                "tags": ["social", "fascism"],
+                "desc": "<p>'The Iron Heel' describes a world in which the division between the classes has deepened, creating a powerful Oligarchy that retains control through terror.</p>",
+                "cover": "The Iron Heel.jpg"
+            },
+            {
+                "title": "We",
+                "date": "1921",
+                "author": "Yevgeny Zamyatin",
+                "tags": ["social", "fascism", "freedom"],
+                "desc": "<p>In a glass-enclosed city of absolute straight lines, ruled over by the all-powerful 'Benefactor', the citizens of the totalitarian society of OneState live out lives devoid of passion and creativity</p>",
+                "cover": "We.jpg"
+            }
+        ]
+    },
+    {
+        "title": "Loss of Individuality and Rise of Totalitarianism",
+        "era": "1930s - 1940s",
+        "desc": "<p>Political tensions and global anxieties worsen as the 1930s began. This period was defined by the rise of the Nazi Party headed by Adolf Hitler. Millions of Jews perished in the Holocaust and millions more were killed in the Second World War. Citizens under totalitarian regimes became subjected to mass surveillance and censorhip. The Great Depression caused massive unemployment which led to gap between the rich and the poor.</p><p>Dystopian themes in this era focused on fear of state and loss of freedom caused by government propagandas and censorhip.</p>",
+        "notable_event": [
+            "Great Depression", "World War II", "Rise of Hitler", "Holocaust", "Atomic Bombing in Nagasaki and Hiroshima"
+        ],
+        "bg": "ww2.webp",
+        "books": [
+            {
+                "title": "1984",
+                "date": "1949",
+                "author": "George Orwell",
+                "tags": ["social", "fascism", "freedom"],
+                "desc": "<p>People are subjected under the watchful eye of the state, where opinions are influenced by propaganda, and where the nation is in perpetual war against the enemies.</p>",
+                "cover": "1984.jpg"
+            },
+            {
+                "title": "Brave New World",
+                "date": "1939",
+                "author": "Aldous Huxley",
+                "tags": ["social", "fascism", "freedom"],
+                "desc": "<p>About a society where the truth is difficult to parse from within a vast sea of irrelevant information.</p>",
+                "cover": "Brave New World.jpg"
+            },
+            {
+                "title": "It Can't Happen Here",
+                "date": "1935",
+                "author": "Sinclair Lewis",
+                "tags": ["fascism"],
+                "desc": "<p>a cautionary tale about the fragility of democracy, an alarming, eerily timeless look at how fascism could take hold in America.</p>",
+                "cover": "It Cant Happen Here.jpg"
+            }
+        ]
+    }
+]

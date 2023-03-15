@@ -40,6 +40,11 @@
 	color: white;
 }
 
+.card__icon--orange {
+	background-color:  #f39c12 ;
+	color: white;
+}
+
 .card__icon > i {
 	display: flex;
 	justify-content: center;
