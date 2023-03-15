@@ -5,6 +5,7 @@
 	margin: auto;
 	padding-right: 15px;
 	padding-left: 15px;
+	position: relative;
 }
 .container--1200 {
 	max-width: 1200px;

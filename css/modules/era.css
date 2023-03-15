@@ -4,11 +4,11 @@
 	color: white;
 	font-family: var(--primary-font-family);
 	font-size: 5rem;
-line-height: 5rem;
+	line-height: 5rem;
 }
 
-.year-title .parallax {
-	filter: contrast(100%) brightness(68%);
+.year-title .section-title span {
+	color:var(--ribbon-color);
 }
 
 .year-page {

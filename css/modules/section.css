@@ -13,6 +13,16 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+.section__hero {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	filter: contrast(100%) brightness(30%);
+}
+
+
 .section__container--two-column {
 	display: flex;
 	flex-direction: row;

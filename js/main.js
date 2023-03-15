@@ -1,9 +1,10 @@
 function YearTitle(imgUrl, era, title) {
     return `
         <section class="section year-title">
-            <div class="section__container section__container--one-column bgimage parallax" style="background-image:url('./imgs/${imgUrl}')">
+            <div class="section__container section__container--one-column">
+                <div class="section__hero bgimage parallax" style="background-image:url('./imgs/${imgUrl}')"></div>
                 <div class="container container--1200">
-                    <h2 class="section-title">${era}: <br />${title}</h2>
+                    <h2 class="section-title">${era}: <br /><span>${title}</span></h2>
                 </div>
             </div> 
         </section>
