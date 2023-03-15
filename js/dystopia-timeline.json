@@ -60,5 +60,183 @@
                 "cover": "It Cant Happen Here.jpg"
             }
         ]
+    },
+    {
+        "title": "Advancement of Technology",
+        "era": "1950s - 1960s",
+        "desc": "<p>The arms race between the US and USSR paved way to the advancement of technology and eventually to the modernization of weapons of mass desctruction. Thanks to space travel (i.e. first Man on the Moon and first satellite Sputnik I) and the invention of personal computers, modern technology defined this era.</p><p>Modern technology and its potential negative effect on people became the central theme of this period.</p>",
+        "notable_event": [
+            "Creation if first Earth satellite, Sputnik I", "Invention of personal computer", "First Man on the Moon", "Cold War", "First heart transplant operation", "Inception of the Turing Test"
+        ],
+        "bg": "moon landing.webp",
+        "books": [
+            {
+                "title": "Do Androids Dream of Electric Sheep?",
+                "date": "1968",
+                "author": "Philip K. Dick",
+                "tags": ["ecology", "tech"],
+                "desc": "<p>It was January 2021, and Rick Deckard had a license to kill. Somewhere among the hordes of humans out there, lurked several rogue androids. Deckard's assignment--find them and then...\"retire\" them. Trouble was, the androids all looked exactly like humans, and they didn't want to be found!</p>",
+                "cover": "Do Androids.jpg"
+            },
+            {
+                "title": "Stand on Zanzibar",
+                "date": "1968",
+                "author": "John Brunner",
+                "tags": ["ecology", "tech", "social"],
+                "desc": "<p>Stand on Zanzibar is a cross-section of a world overpopulated by the billions. Where society is squeezed into hive-living madness by god-like mega computers, mass-marketed psychedelic drugs, and mundane uses of genetic engineering.</p>",
+                "cover": "Stand on Zanzibar.jpg"
+            },
+            {
+                "title": "A Clockwork Orange",
+                "date": "1962",
+                "author": "Anthony Burgess",
+                "tags": ["social"],
+                "desc": "<p>In Anthony Burgess's influential nightmare vision of the future, criminals take over after dark. Teen gang leader Alex narrates in fantastically inventive slang that echoes the violent intensity of youth rebelling against society.</p>",
+                "cover": "Clockwork Orange.jpg"
+            },
+            {
+                "title": "Make Room! Make Room!",
+                "date": "1966",
+                "author": "Harry Harrison",
+                "tags": ["social", "ecology"],
+                "desc": "<p>Society that is an overpopulated urban jungle, a divided class system—operating within an atmosphere of riots, food shortages, and senseless acts of violence.</p>",
+                "cover": "Make Room.jpg"
+            },
+            {
+                "title": "Fahrenheit 451",
+                "date": "1953",
+                "author": "Ray Bradbury",
+                "tags": ["social", "freedom"],
+                "desc": "<p>Society where books are burned.</p>",
+                "cover": "Fahrenheit.jpg"
+            },
+            {
+                "title": "Harrison Bergeron",
+                "date": "1961",
+                "author": "Kurt Vonnegut",
+                "tags": ["social", "freedom"],
+                "desc": "<p>Every American is fully equal, meaning that no one is stupider, uglier, weaker, or slower than anyone else. The Handicapper General and a team of agents ensure that the laws of equality are enforced.</p>",
+                "cover": "Harrison Bergeron.jpg"
+            },
+            {
+                "title": "Player Piano",
+                "date": "1952",
+                "author": "Kurt Vonnegut",
+                "tags": ["social", "freedom", "tech"],
+                "desc": "<p>A chilling tale of engineer Paul Proteus, who must find a way to live in a world dominated by a supercomputer and run completely by machines.</p>",
+                "cover": "Player Piano.jpg"
+            }
+        ]
+    },
+    {
+        "title": "Corporate Fascism and Body Anxieties",
+        "era": "1970s - 1990s",
+        "desc": "<p>More new dytopian themes emerged in this era. From political and social themes, dystopian fiction moved to new directions focusing on greedy corporations, commercialization of bodies, and biological issues concerning women. The threat of climate changed also paved way to more ecological themes.</p>",
+        "notable_event": [
+            "Spread of HIV/AIDS", "Chernobyl Disaster", "First cloning of mammal, Dolly the Sheep"
+        ],
+        "bg": "HIV.webp",
+        "books": [
+            {
+                "title": "The Handmaid’s Tale",
+                "date": "1985",
+                "author": "Margaret Atwood",
+                "tags": ["social", "fascism", "freedom", "biology"],
+                "desc": "<p>Set in a totalitarian theocracy where women have been reduced as baby makers in response to declining births. Women are not allowed to read.</p>",
+                "cover": "Handmaids Tale.jpg"
+            },
+            {
+                "title": "The Children of Men",
+                "date": "1992",
+                "author": "PD James",
+                "tags": ["social", "freedom", "biology"],
+                "desc": "<p>About a world where the population has become infertile. Civilization is crumbling as suicide and despair become commonplace.</p>",
+                "cover": "Children of Men.jpg"
+            },
+            {
+                "title": "Neuromancer",
+                "date": "1984",
+                "author": "William Gibson",
+                "tags": ["tech", "social", "freedom"],
+                "desc": "<p>Awards, Neuromancer was the first fully-realized glimpse of humankind’s digital future—a shocking vision that has challenged our assumptions about our technology and ourselves, reinvented the way we speak and think, and forever altered the landscape of our imaginations.</p>",
+                "cover": "Neuromancer.jpg"
+            },
+            {
+                "title": "Children of the Dust",
+                "date": "1985",
+                "author": "Louise Lawrence",
+                "tags": ["biology", "social"],
+                "desc": "<p>After a nuclear war devastates the earth, a small band of people struggles for survival in a new world where children are born with strange mutations.</p>",
+                "cover": "Children of the Dust.jpg"
+            },
+            {
+                "title": "The Giver",
+                "date": "1993",
+                "author": "Lois Lowry",
+                "tags": ["social"],
+                "desc": "<p>At the age of twelve, Jonas, a young boy from a seemingly utopian, futuristic world, is singled out to receive special training from The Giver, who alone holds the memories of the true joys and pain of life.</p>",
+                "cover": "The Giver.jpg"
+            }
+        ]
+    },
+    {
+        "title": "Self-discovery and Anti-conformism",
+        "era": "2000s - 2010s",
+        "desc": "<p>The dystopian fiction in this era is dominated by young adult narratives, focusing on the youth's self-discovery and their feeling of standing up against the authority or an established status quo. With the popularity of social media and the pressure to fit to society's standards, young adults are confronted with challenges that impacts their identities.</p>",
+        "notable_event": [
+            "Globalization", "9/11 Attack", "War on Terror", "Rise of social media"
+        ],
+        "bg": "phone.jpg",
+        "books": [
+            {
+                "title": "The Hunger Games",
+                "date": "2008",
+                "author": "Suzanne Collins",
+                "tags": ["social", "fascism", "freedom"],
+                "desc": "<p>In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV.</p>",
+                "cover": "Hunger Games.jpg"
+            },
+            {
+                "title": "Divergent",
+                "date": "2011",
+                "author": "Veronica Roth",
+                "tags": ["social", "freedom"],
+                "desc": "<p>A society is divided into five factions, each dedicated to the cultivation of a particular virtue—Candor (the honest), Abnegation (the selfless), Dauntless (the brave), Amity (the peaceful), and Erudite (the intelligent).</p>",
+                "cover": "Divergent.jpg"
+            },
+            {
+                "title": "Maze Runner",
+                "date": "2009",
+                "author": "James Dashner",
+                "tags": ["social", "freedom"],
+                "desc": "<p>A group of young adults are trapped inside a maze. When they got out, they discovered that they were part of an experiment.</p>",
+                "cover": "Maze Runner.jpg"
+            },
+            {
+                "title": "Uglies",
+                "date": "2005",
+                "author": "Scott Westerfield",
+                "tags": ["biology", "social", "freedom"],
+                "desc": "<p>Tally is about to turn sixteen, and she can't wait. In just a few weeks she'll have the operation that will turn her from a repellent ugly into a stunning pretty. And as a pretty, she'll be catapulted into a high-tech paradise where her only job is to have fun.",
+                "cover": "Children of the Dust.jpg"
+            },
+            {
+                "title": "Ready Player One",
+                "date": "2011",
+                "author": "Ernest Cline",
+                "tags": ["social", "tech"],
+                "desc": "<p>A society where the borderline between virtual reality and real world have become blurred</p>",
+                "cover": "Ready Player One.jpg"
+            },
+            {
+                "title": "Feed",
+                "date": "2002",
+                "author": "M.T. Anderson",
+                "tags": ["social", "freedom", "tech", "biology"],
+                "desc": "<p>Identity crises, consumerism, and star-crossed teenage love in a futuristic society where people connect to the Internet via feeds implanted in their brains.</p>",
+                "cover": "Feed.jpg"
+            }
+        ]
     }
 ]
+
