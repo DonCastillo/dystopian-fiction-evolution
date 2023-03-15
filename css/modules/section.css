@@ -36,3 +36,9 @@
 	min-height: 100%;
 	padding: 0 25px;
 }
+
+.footer {
+	padding:20px 10px;
+	font-size:0.8rem;
+	font-family: var(--secondary-font-family);
+}
