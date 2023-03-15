@@ -2,7 +2,7 @@
     {
         "title": "Defining the Genre",
         "era": "1900s - 1920s",
-        "desc": "<p>The start of the 20th century was defined by social unrest and global anxiety brought by the First World War and the Russian Revolution. There was also a widespread political tensions that caused the rise of totalitarian regimes and oligarchies that held control over the masses.</p><p>In this era, dystopian themes centered around politics ruled by the few and caste system where the lower class is subjected to oppressive actions by the upper class.</p>",
+        "desc": "<p>The start of the 20th century was defined by social unrest and global anxiety brought by the First World War and the Russian Revolution. There were widespread political tensions that caused the rise of totalitarian regimes and oligarchies that held control over the masses.</p><p>In this era, dystopian themes centered around politics ruled by the few and caste system where the lower class is subjected to oppressive actions by the upper class.</p>",
         "notable_event": [
             "World War I", "Spread of Spanish Flu", "Russian Revolution", "First TV transmission"
         ],
@@ -29,7 +29,7 @@
     {
         "title": "Loss of Individuality and Rise of Totalitarianism",
         "era": "1930s - 1940s",
-        "desc": "<p>Political tensions and global anxieties worsen as the 1930s began. This period was defined by the rise of the Nazi Party headed by Adolf Hitler. Millions of Jews perished in the Holocaust and millions more were killed in the Second World War. Citizens under totalitarian regimes became subjected to mass surveillance and censorhip. The Great Depression caused massive unemployment which led to gap between the rich and the poor.</p><p>Dystopian themes in this era focused on fear of state and loss of freedom caused by government propagandas and censorhip.</p>",
+        "desc": "<p>Political tensions and global anxieties worsened as the 1930s began. This period was defined by the rise of the Nazi Party headed by Adolf Hitler. Millions of Jews perished in the Holocaust and millions more were killed in the Second World War. Citizens under totalitarian regimes became subject of mass surveillance and censorhip. The Great Depression caused massive unemployment which led to widened gap between the rich and the poor.</p><p>Dystopian themes in this era focused on fear of state and loss of freedom caused by government propagandas and censorhip.</p>",
         "notable_event": [
             "Great Depression", "World War II", "Rise of Hitler", "Holocaust", "Atomic Bombing in Nagasaki and Hiroshima"
         ],
@@ -64,9 +64,9 @@
     {
         "title": "Advancement of Technology",
         "era": "1950s - 1960s",
-        "desc": "<p>The arms race between the US and USSR paved way to the advancement of technology and eventually to the modernization of weapons of mass desctruction. Thanks to space travel (i.e. first Man on the Moon and first satellite Sputnik I) and the invention of personal computers, modern technology defined this era.</p><p>Modern technology and its potential negative effect on people became the central theme of this period.</p>",
+        "desc": "<p>The arms race between the US and USSR paved way to the advancement of technology and eventually to the modernization of weapons of mass desctruction. Thanks to space travel (i.e. first Man on the Moon and first satellite Sputnik I) and the invention of personal computers, modern technologies defined this era.</p><p>Modern technologies and their potential negative effects on people became the central theme of this period.</p>",
         "notable_event": [
-            "Creation if first Earth satellite, Sputnik I", "Invention of personal computer", "First Man on the Moon", "Cold War", "First heart transplant operation", "Inception of the Turing Test"
+            "Creation of first Earth satellite, Sputnik I", "Invention of personal computer", "First Man on the Moon", "Cold War", "First heart transplant operation", "Inception of the Turing Test"
         ],
         "bg": "moon landing.webp",
         "books": [
@@ -131,7 +131,7 @@
     {
         "title": "Corporate Fascism and Body Anxieties",
         "era": "1970s - 1990s",
-        "desc": "<p>More new dytopian themes emerged in this era. From political and social themes, dystopian fiction moved to new directions focusing on greedy corporations, commercialization of bodies, and biological issues concerning women. The threat of climate changed also paved way to more ecological themes.</p>",
+        "desc": "<p>More new dytopian themes emerged in this era. From political and social themes, dystopian fiction moved to new directions focusing on greedy corporations, commercialization of bodies, and biological issues concerning women. The threat of climate change also paved way to more ecological themes.</p>",
         "notable_event": [
             "Spread of HIV/AIDS", "Chernobyl Disaster", "First cloning of mammal, Dolly the Sheep"
         ],
@@ -182,9 +182,9 @@
     {
         "title": "Self-discovery and Anti-conformism",
         "era": "2000s - 2010s",
-        "desc": "<p>The dystopian fiction in this era is dominated by young adult narratives, focusing on the youth's self-discovery and their feeling of standing up against the authority or an established status quo. With the popularity of social media and the pressure to fit to society's standards, young adults are confronted with challenges that impacts their identities.</p>",
+        "desc": "<p>The dystopian fiction in this era is dominated by young adult narratives, focusing on the youth's self-discovery and their feeling of standing up against the authority or an established status quo. With the popularity of social media and the pressure to fit to society's standards, young adults are confronted with challenges that impact their identities.</p>",
         "notable_event": [
-            "Globalization", "9/11 Attack", "War on Terror", "Rise of social media"
+            "Globalization", "9/11 Attacks", "War on Terror", "Rise of social media"
         ],
         "bg": "phone.jpg",
         "books": [
