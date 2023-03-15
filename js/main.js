@@ -1,7 +1,7 @@
 function YearTitle(imgUrl, era, title) {
     return `
         <section class="section year-title">
-            <div class="section__container section__container--one-column">
+            <div class="section__container section__container--one-column padding-y-20">
                 <div class="section__hero bgimage parallax" style="background-image:url('./imgs/${imgUrl}')"></div>
                 <div class="container container--1200">
                     <h2 class="section-title">${era}: <br /><span>${title}</span></h2>
@@ -18,7 +18,7 @@ function ThemeIcon(themeName) {
     if (themeName == "social") {
         color = "orange"
         icon = "person-rifle"
-    } else if (themeName == "facism") {
+    } else if (themeName == "fascism") {
         color = "red"
         icon = "building-columns"
     } else if (themeName == "freedom") {
@@ -45,7 +45,11 @@ function ThemeIcon(themeName) {
     `;
 }
 
-function Book(cover, title, year, author, desc, themeListHTML) {
+function Book(cover, title, year, author, desc, tags) {
+    let themeListHTML = "";
+    for(let i=0; tags.length > i; i++) {
+        themeListHTML += ThemeIcon(tags[i])
+    }
     return `
         <div class="book-card">
             <div class="book-card__cover">
@@ -63,7 +67,11 @@ function Book(cover, title, year, author, desc, themeListHTML) {
     `;
 }
 
-function YearPage(era, title, desc, notableEventsListHTML, bookCardsHTML) {
+function YearPage(era, title, desc, notableEvents, bookCardsHTML) {
+    let notableEventsHTML = "";
+    for(let i=0; notableEvents.length > i; ++i) {
+        notableEventsHTML += `<li>${notableEvents[i]}</li>`
+    }
     return `
     <section class="section year-page">
         <div class="section__container section__container--one-column">
@@ -76,7 +84,7 @@ function YearPage(era, title, desc, notableEventsListHTML, bookCardsHTML) {
                 
                 <div class="notable-events">
                     <strong>Notable events:</strong>
-                    ${notableEventsListHTML}
+                    <ul>${notableEventsHTML}</ul>
                 </div>
 
                 <div class="book-list">
@@ -109,8 +117,19 @@ $(document).ready(function () {
             let yearBg = data[i].bg
 
             // draw year title page
-            const yrPageHTML = YearTitle(yearBg, yearEra, yearTitle);
+            const yrTitleHTML = YearTitle(yearBg, yearEra, yearTitle);
+            let booksHTML = ""
+            for(let i=0; yearBooks.length > i; ++i) {
+                booksHTML += Book(yearBooks[i].cover, 
+                                  yearBooks[i].title, 
+                                  yearBooks[i].date, 
+                                  yearBooks[i].author, 
+                                  yearBooks[i].desc, 
+                                  yearBooks[i].tags)
+            }
+            const yrPageHTML = YearPage(yearEra, yearTitle, yearDesc, yearNotableEvent, booksHTML)
 
+            dystopiaTimelineEl.append(yrTitleHTML)
             dystopiaTimelineEl.append(yrPageHTML)
 
         }
