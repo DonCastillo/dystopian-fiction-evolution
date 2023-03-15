@@ -51,6 +51,10 @@ body, html {
 	padding-left: 20px;
 }
 
+.padding-t-20 {
+	padding-top: 20px;
+}
+
 .display-block {
 	display: block;
 }
