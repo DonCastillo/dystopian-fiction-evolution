@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Evolution of Dystopian Fiction</title>
 </head>
@@ -41,7 +42,7 @@
         <section class="section padding-y-20">
             <div class="container container--1200">
                 <div class="section__container section__container--two-column">
-                    <div class="width-50 flex-middle padding-r-20">
+                    <div class="width-50 flex-middle padding-r-20" data-aos="fade-up" data-aos-delay="500">
                         <div>
                             <p>Long ago, people were optimistic about the future and the promise of modern society.</p>
                             <p>However, building such societies is impossible. </p>
@@ -49,7 +50,7 @@
                             <p>Attempts to build utopian societies have some compromises that oftentimes resulted to their complete opposite, <strong id="dystopia-link">dystopia</strong> (meaning bad place).</p>
                         </div>
                     </div>
-                    <div class="width-50 flex-column">
+                    <div class="width-50 flex-column" data-aos="fade-down" data-aos-delay="500">
                         <div class="bgimage utopia-img bgimage--utopia-1"></div>
                         <div class="bgimage utopia-img bgimage--utopia-2"></div>
                         <div class="bgimage utopia-img bgimage--utopia-3"></div>
@@ -65,14 +66,14 @@
         <section class="section padding-y-20">
             <div class="container container--1200">
                 <div class="section__container section__container--two-column section__container--two-column--reverse">
-                    <div class="width-50 flex-middle padding-l-20">
+                    <div class="width-50 flex-middle padding-l-20" data-aos="fade-up" data-aos-delay="500">
                         <div>
                             <p>Though dystopia was coined a long time ago, it wasn't until the 20th century that the concept became more popular. Authors and filmmakers have used their works to tell stories about how people survive and endure life in dystopian societies.</p>  
                             
                             <p>Moreover, themes of their stores are oftentimes influenced by the events of that period.</p>
                         </div>
                     </div>
-                    <div class="width-50 flex-column">
+                    <div class="width-50 flex-column" data-aos="fade-down" data-aos-delay="500">
                         <div class="bgimage bgimage--dystopia-1"></div>
                     </div>
                 </div>
@@ -87,7 +88,7 @@
                     <h2 class="section-title">Common dystopian themes:</h2>
                     
                     <!-- Opressive Government -->
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-sine">
                         <div class="card__icon card__icon--lg card__icon--red">
                             <i class="fa-solid fa-building-columns"></i>
                         </div>                        
@@ -99,7 +100,7 @@
                     </div>
 
                     <!-- Lack of Freedom -->
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-delay="700" data-aos-easing="ease-in-sine">
                         <div class="card__icon card__icon--lg card__icon--grey">
                             <i class="fa-solid fa-handcuffs"></i>
                         </div>                        
@@ -110,7 +111,7 @@
                     </div>
 
                      <!-- Lack of Freedom -->
-                     <div class="card">
+                     <div class="card" data-aos="fade-right" data-aos-delay="900" data-aos-easing="ease-in-sine">
                         <div class="card__icon card__icon--lg card__icon--orange">
                             <i class="fa-solid fa-person-rifle"></i>
                         </div>                        
@@ -122,7 +123,7 @@
 
 
                      <!-- Ecological Issues -->
-                     <div class="card">
+                     <div class="card" data-aos="fade-right" data-aos-delay="1100" data-aos-easing="ease-in-sine">
                         <div class="card__icon card__icon--lg card__icon--green">
                             <i class="fa-solid fa-seedling"></i>
                         </div>                        
@@ -133,7 +134,7 @@
                     </div>
 
                     <!-- Cyberpunk -->
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-delay="1300" data-aos-easing="ease-in-sine">
                         <div class="card__icon card__icon--lg card__icon--blue">
                             <i class="fa-solid fa-robot"></i>
                         </div>                        
@@ -144,7 +145,7 @@
                     </div>
 
                      <!-- Bioligical Issues -->
-                     <div class="card">
+                     <div class="card" data-aos="fade-right" data-aos-delay="1500" data-aos-easing="ease-in-sine">
                         <div class="card__icon card__icon--lg card__icon--purple">
                             <i class="fa-solid fa-dna"></i>
                         </div>                        
@@ -181,6 +182,10 @@
     
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./js/main.js"></script>
 </body>
 </html>

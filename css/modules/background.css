@@ -46,3 +46,9 @@
 .bgimage--dystopia-4 {
 	background-image: url("./../../imgs/dystopia-4.jpg");
 }
+
+@media (max-width: 720px) {
+	.parallax {
+		background-attachment: unset;
+	}
+}

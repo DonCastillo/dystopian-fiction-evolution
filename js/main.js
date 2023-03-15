@@ -145,10 +145,15 @@ $(document).ready(function () {
 
             dystopiaTimelineEl.append(yrTitleHTML)
             dystopiaTimelineEl.append(yrPageHTML)
+            // $('.book-card').removeAttr('data-aos')
+            // $('.book-card').attr('data-aos', 'fade-up')
+
 
         }
 
     });
+
+
     
 
 });
