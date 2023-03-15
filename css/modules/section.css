@@ -1,0 +1,25 @@
+.section {
+	background-color: whitesmoke;
+}
+.section--dark {
+	background-color: black;
+}
+.section__container {
+	min-height: 100vh;
+	position: relative;
+}
+.section__container--one-column {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.section__container--two-column {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+.section__two-column > div {
+	min-height: 100%;
+	padding: 0 25px;
+}

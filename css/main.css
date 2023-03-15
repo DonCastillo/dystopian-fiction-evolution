@@ -1,11 +1,15 @@
 @import 'modules/normalize.css';
-@import 'modules/hero.css';
+@import 'modules/generic.css';
+@import 'modules/embellishments.css';
+@import 'modules/section.css';
+@import 'modules/background.css';
 @import 'modules/typography.css';
 
 :root {
     --primary-font-family: 'Suez One', serif;
     --secondary-font-family: 'Yeseva One', cursive;
     --heading-color:#A9A9A9;
+    --ribbon-color: #f4d03f;  
 }
 /* @import 'modules/custom-normalize.css'; */
 

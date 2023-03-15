@@ -1,0 +1,45 @@
+.bgimage {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax {
+	background-attachment: fixed;
+}
+
+.section .flex-column .bgimage {
+	background-color: red;
+	height: 100%;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+.bgimage--metropolis {
+	background-image: url("./../../imgs/inventor-Rotwang-CA-invention-silent-film-Fritz.webp");
+}
+
+.bgimage--utopia-1 {
+	background-image: url("./../../imgs/utopia-1.jpg");
+}
+
+.bgimage--utopia-2 {
+	background-image: url("./../../imgs/utopia-2.jpg");
+}
+
+.bgimage--utopia-3 {
+	background-image: url("./../../imgs/utopia-3.jpg");
+}
+
+.bgimage--dystopia-1 {
+	background-image: url("./../../imgs/dystopia-1.webp");
+	background-position: top center;
+}
+
+.bgimage--dystopia-2 {
+	background-image: url("./../../imgs/dystopia-2.webp");
+}
+
+.bgimage--dystopia-3 {
+	background-image: url("./../../imgs/dystopia-3.webp");
+}
