@@ -1,25 +1,41 @@
-
-
-h1 {
-    margin:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
 }
 
 .site-title {
-    font-size: 8rem;
-    line-height: 9rem;
-    color: white;
-    font-family: var(--secondary-font-family);
+	font-size: 8rem;
+	line-height: 8rem;
+	color: white;
+	font-family: var(--primary-font-family);
 }
 
 .sub-title {
-    font-size:4rem;
-    font-family: var(--secondary-font-family);
-    color: var(--heading-color);
+	font-size: 2.5rem;
+	font-family: var(--secondary-font-family);
+	color: var(--heading-color);
+	font-weight: 200;
+	line-height: 2.8rem;
+	max-width: 600px;
+	width: 100%;
 }
 
-
+.section-title {
+	font-size: 2.5rem;
+	font-family: var(--secondary-font-family);
+	font-weight: 200;
+	line-height: 2.8rem;
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
 p {
-    display:block;
-    font-size:1.8rem;
-    font-family: var(--secondary-font-family);
+	display: block;
+	font-size: 1.8rem;
+	font-weight: 200;
+	font-family: var(--secondary-font-family);
 }

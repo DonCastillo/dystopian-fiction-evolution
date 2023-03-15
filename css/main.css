@@ -4,10 +4,11 @@
 @import 'modules/section.css';
 @import 'modules/background.css';
 @import 'modules/typography.css';
+@import 'modules/cards.css';
 
 :root {
-    --primary-font-family: 'Suez One', serif;
-    --secondary-font-family: 'Yeseva One', cursive;
+    --primary-font-family: 'Yeseva One', cursive;
+    --secondary-font-family: 'Lato', sans-serif;
     --heading-color:#A9A9A9;
     --ribbon-color: #f4d03f;  
 }

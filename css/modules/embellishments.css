@@ -1,4 +1,8 @@
 .ribbon {
     background-color: var(--ribbon-color);
+    font-family:var(--secondary-font-family);
     padding:15px;
+    font-size:2rem;
+    font-weight: 900;
+    margin-top:20px;
 }
